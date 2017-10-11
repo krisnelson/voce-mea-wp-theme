@@ -1,0 +1,92 @@
+/*
+Theme Name: Voce Mea
+Theme URI: https://inpropriapersona.com
+Author: Kristopher Nelson
+Author URI: https://krisnelson.org
+Description: An extremely scaled back theme--but with Bootstrap 4
+Version: 0.0.1
+License: Copyright 2017 Kristopher NElson
+Text Domain: voce-mea
+Tags:
+
+This is an experimental/development theme. Use at your own risk.
+/* base font size is bigger than the browder default */
+html { font-size: 1.5rem; } /* inherited by all other "rem"s */
+/* *** Broad overrides for certain Bootstrap defaults */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #2b2523; }
+/* *** /end broad overrides */
+/* *** for WP-added styles *** */
+.alignright { float: right; }
+.alignleft { float: left; }
+.wp-caption { margin: 1rem 1rem 1rem 1rem; }
+.wp-caption-text { font-size: 0.7rem; opacity: 0.7; margin-left: 0.5rem; margin-right: 0.5rem; margin-bottom: 0.5rem;}
+.rss-widget-icon { display: none; }
+/* *** /end needed for WP-added styles */
+/* *** In-post styling */
+
+/* *** /end in-post styling */
+/* *** more subtle titles for column/widget headings */
+.col-heading, .widget-title {
+  color: rgba(85,74,69,.66);
+	font-size: .85rem;
+	letter-spacing: .06rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-bottom: .2rem;
+	border-bottom: 1px solid rgba(85, 74, 69, 0.2);
+}
+/* *** /end more subtle titles */
+/* *** dim sidebars, then brighten them on hover */
+.sidebar .widget:nth-child(n+2) { margin-top: 2rem; }
+.sidebar .widget { opacity: 0.33; }
+.sidebar .widget:hover { opacity: 0.95; }
+/* *** /end sidebars */
+/* *** when the featured image is below the title */
+.jumbotron-featured-image {
+  color: white;
+  text-shadow: 0 1px 0 black;
+  background-color: #444; /* rgba(57, 47, 41, 0.33); */
+  border-radius: 0;
+}
+.jumbotron-featured-image h1,
+  .jumbotron-featured-image h2 { color: white;  text-shadow: 0 2px 0 black; }
+.jumbotron-featured-image h3,
+  .jumbotron-featured-image h4,
+  .jumbotron-featured-image h5 { color: white;  text-shadow: 0 1px 0 black; }
+.jumbotron-featured-image .btn { text-shadow: none; }
+.jumbotron-featured-image a:not(.btn) { color: white; }
+
+/* *** /end when the featured image is below the title */
+/* *** related post "see also" additions */
+div.ijrp { width: 100%; margin-left: -1rem; margin-top: 2rem; margin-bottom: 2rem; }
+div.ijrp a.ijrp-link {
+	display: block;
+	font-size: .8rem;
+	color: rgba(85,74,69,1);
+	background-color: rgba(85,74,69,.2);
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	padding-left: .5rem;
+	padding-right: .5rem;
+	border: 1px solid rgba(85,74,69,.2);
+	border-left: .5rem solid rgba(139,0,0,1);
+}
+div.ijrp a.ijrp-link:hover {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	background-color: rgba(139,0,0,1);
+	border: 1px solid rgba(139,0,0,1);
+	border-left: .5rem solid rgba(139,0,0,1);
+}
+div.ijrp a.ijrp-link span.ijrp-first:before {
+	font-style: italic;
+	color: rgba(85,74,69,.75);
+	font-weight: 700;
+	content: 'See also:  ';
+}
+div.ijrp a.ijrp-link:hover span.ijrp-first:before {
+	color: rgba(255,255,255,.75);
+}
+/* *** /end related post "see also" additions */
