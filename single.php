@@ -139,7 +139,7 @@ article aside {
     </article>
 
   <?php if ( is_active_sidebar( 'sidebar-post' ) ) : ?>
-    <div id="sidebar-post" class="sidebar sidebar-post widget-area hidden-sm-down col ml-5 pl-4 pr-0 mr-0"
+    <div id="sidebar-post" class="sidebar sidebar-post widget-area hidden-sm-down col ml-2 pl-4 pr-0 mr-0"
           style="border-left: 1px solid rgba(85, 74, 69, 0.2);"
           role="complementary">
       <?php dynamic_sidebar( 'sidebar-post' ); ?>

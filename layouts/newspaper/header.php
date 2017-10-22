@@ -1,5 +1,5 @@
 <?php
-  $img_prefix = 'https://res.cloudinary.com/krisnelson/image/upload/e_blur:150,q_auto,f_auto,c_fill';
+  $img_prefix = 'https://res.cloudinary.com/krisnelson/image/upload/e_blur:150,q_auto,c_fill';
   $featured_image_url = "v1502401591/unsplash/ehud-neuhaus-191867.jpg";
   $featured_image_caption = "Photo by Ehud Neuhaus on Unsplash.";
   //$template = locate_template('partials/featured-image-build-css.php');

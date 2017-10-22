@@ -6,7 +6,7 @@
 		<a href="<?php the_permalink(); ?>">
 			<?php //the_post_thumbnail( 'thumbnail', array('class' => 'thumbnail') ); ?>
 			<img
-  				src="https://images.inpropriapersona.com/h_600/h_180,w_150,q_auto,f_auto,c_thumb,g_auto:faces/<?php the_post_thumbnail_url('full'); ?>"
+  				src="https://images.inpropriapersona.com/h_600/h_180,w_150,q_auto,c_thumb,g_auto:faces/<?php the_post_thumbnail_url('full'); ?>"
   				class="img-thumbnail rounded float-left mb-5 mr-5"
   				height="180" width="150"
   				alt=""

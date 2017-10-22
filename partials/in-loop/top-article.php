@@ -3,9 +3,9 @@
 		<a href="<?php the_permalink(); ?>">
 			<img class="img-responsive img-thumbnail"
         sizes="(min-width: 800px) 50vw, 100vw"
-        src="https://images.inpropriapersona.com/w_480,ar_4:3,q_auto,f_auto,c_fill/<?php the_post_thumbnail_url('full'); ?>"
-        srcset="https://images.inpropriapersona.com/w_800,ar_4:3,q_auto,f_auto,c_fill/<?php the_post_thumbnail_url('full'); ?> 800w,
-                https://images.inpropriapersona.com/w_1200,ar_4:3,q_auto,f_auto,c_fill/<?php the_post_thumbnail_url('full'); ?> 1200w"
+        src="https://images.inpropriapersona.com/w_480,ar_4:3,q_auto,c_fill/<?php the_post_thumbnail_url('full'); ?>"
+        srcset="https://images.inpropriapersona.com/w_800,ar_4:3,q_auto,c_fill/<?php the_post_thumbnail_url('full'); ?> 800w,
+                https://images.inpropriapersona.com/w_1200,ar_4:3,q_auto,c_fill/<?php the_post_thumbnail_url('full'); ?> 1200w"
         alt=""
 			/>
 		</a>

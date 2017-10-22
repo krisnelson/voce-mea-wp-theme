@@ -1,6 +1,6 @@
 <!-- the featured image -->
 <?php
-  $img_prefix = "https://images.inpropriapersona.com/q_auto,f_auto,c_fill,g_auto";
+  $img_prefix = "https://images.inpropriapersona.com/q_auto,c_fill,g_auto";
   $image_url = get_featured_image_url( get_the_ID(), 'full' );
   $image_id = get_post_thumbnail_id(get_the_ID());
   $image_alt = get_post_meta($img_id , '_wp_attachment_image_alt', true);

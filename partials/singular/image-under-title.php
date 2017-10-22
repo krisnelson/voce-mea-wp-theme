@@ -1,7 +1,7 @@
 <!-- the featured image -->
 <?php
-  if( is_page() ) { $img_prefix = 'https://images.inpropriapersona.com/e_blur:150,q_auto,f_auto,c_fill'; }
-  else { $img_prefix = "https://images.inpropriapersona.com/e_blur:200,q_auto,f_auto,c_crop,g_auto"; }
+  if( is_page() ) { $img_prefix = 'https://images.inpropriapersona.com/e_blur:150,q_auto,c_fill'; }
+  else { $img_prefix = "https://images.inpropriapersona.com/e_blur:200,q_auto,c_crop,g_auto"; }
   $featured_image_url = get_featured_image_url( get_the_ID(), 'full' );
   $featured_image_caption = get_the_post_thumbnail_caption( get_the_ID() );
   if( $featured_image_url ) {

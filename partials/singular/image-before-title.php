@@ -1,6 +1,6 @@
 <!-- the featured image -->
 <?php
-  $img_prefix = "https://images.inpropriapersona.com/q_auto,f_auto,c_crop,g_auto";
+  $img_prefix = "https://images.inpropriapersona.com/q_auto,c_crop,g_auto";
   $featured_image_url = get_featured_image_url( get_the_ID(), 'full' );
   $featured_image_caption = get_the_post_thumbnail_caption( get_the_ID() );
   if( $featured_image_url ) {

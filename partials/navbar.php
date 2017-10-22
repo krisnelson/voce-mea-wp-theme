@@ -4,10 +4,10 @@
       <div class="col-sm-8 py-4">
         <a href="<?php bloginfo('url');?>">
           <h1 class="display-4 text-white">
-            <img src="https://images.inpropriapersona.com/q_auto,f_auto,w_168,h_168//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png"
-              width="168" height="168" class="hidden-md-down float-left mr-4 mb-4" alt=""
-              style="margin-left:-48px;"
-              />
+		  <picture>
+			  <source type="image/webp" srcset="https://images.inpropriapersona.com/f_auto,q_auto,w_168,h_168//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png" width="168" height="168" class="hidden-md-down float-left mr-4 mb-4" style="margin-left:-48px;" alt="">
+			  <img src="https://images.inpropriapersona.com/q_auto,w_168,h_168//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png" width="168" height="168" class="hidden-md-down float-left mr-4 mb-4" style="margin-left:-48px;" alt="">
+			</picture>
             <?php bloginfo('title');?>
           </h1>
         </a>
@@ -45,10 +45,18 @@
         a.navbar-brand:hover { background:rgba(127,111,103,0.1);text-decoration:underline;text-decoration-color:rgba(255,255,255,0.5); }
       </style>
       <a href="<?php bloginfo('url');?>" class="navbar-brand">
-        <img src="https://images.inpropriapersona.com/q_auto,f_auto,w_96,h_96//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png"
-          width="96" height="96" class="" alt=""
-          style="position:absolute;left:-24px;top:5px;"
-          />
+		<picture>
+			  <source type="image/webp" srcset="https://images.inpropriapersona.com/f_auto,q_auto,w_96,h_96//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png"
+			  width="96" height="96" class="" alt=""
+			  style="position:absolute;left:-24px;top:5px;"
+			  />	
+			<img src="https://images.inpropriapersona.com/q_auto,w_96,h_96//https://inpropriapersona.com/wp-content/uploads/2017/01/ipp-logo-round.png"
+			  width="96" height="96" class="" alt=""
+			  style="position:absolute;left:-24px;top:5px;"
+			  />		
+		</picture>      
+      
+
           <span class="pr-3" style="margin-left:72px;">
             <?php bloginfo('title');?>
           </span>

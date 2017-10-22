@@ -43,7 +43,7 @@
   <?php if (!$post_id) { continue; } ?>
   <?php $featured_image_url = get_featured_image_url( $post_id, 'thumbnail' ); ?>
   <?php //if( !$featured_image_url ) { continue; } // skip anything other than posts with images ?>
-  <?php $img_prefix = "https://images.inpropriapersona.com/q_auto,f_auto,c_thumb,g_auto"; ?>
+  <?php $img_prefix = "https://images.inpropriapersona.com/q_auto,c_thumb,g_auto"; ?>
         <!-- <strong><?php echo $featured_image_url; ?></strong><br/> -->
   <li>
       <h5><a class="" href="<?php the_permalink( $post_id ); ?>"><?php echo get_the_title( $post_id ); ?></a>

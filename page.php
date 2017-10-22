@@ -67,7 +67,7 @@ article aside {
     </article>
 
     <?php if ( is_active_sidebar( 'sidebar-page' ) ) : ?>
-      <div id="sidebar-page" class="sidebar sidebar-page widget-area hidden-sm-down col ml-4 pl-4 pr-0 mr-0"
+      <div id="sidebar-page" class="sidebar sidebar-page widget-area hidden-sm-down col ml-3 pl-4 pr-0 mr-0"
             style="border-left: 1px solid rgba(85, 74, 69, 0.2);"
             role="complementary">
         <?php dynamic_sidebar( 'sidebar-page' ); ?>

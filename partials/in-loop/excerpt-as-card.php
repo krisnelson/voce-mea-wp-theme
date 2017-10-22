@@ -1,7 +1,7 @@
 <!-- ==== partials/in-loop/excerpt-as-card.php ==== -->
 <?php
 // note: relies on being called from within The Loop; autoresizes thumbnails
-$img_prefix = "https://images.inpropriapersona.com/q_auto,f_auto,c_thumb,g_auto";
+$img_prefix = "https://images.inpropriapersona.com/q_auto,c_thumb,g_auto";
 $featured_image_url = get_featured_image_url( get_the_ID(), 'full' ); ?>
  <div class="col-sm-12 col-md-6 col-lg-4 pb-5">
    <div class="card">

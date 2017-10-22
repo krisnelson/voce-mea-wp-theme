@@ -1,4 +1,4 @@
-  <?php $img_prefix = "https://images.inpropriapersona.com/q_auto,f_auto,c_thumb,g_auto";
+  <?php $img_prefix = "https://images.inpropriapersona.com/q_auto,c_thumb,g_auto";
         $featured_image_url = get_featured_image_url( get_the_ID(), 'full' ); ?>
   <?php if ( $featured_image_url ) : ?>
     <div class="bg-primary" style="max-width:328px;overflow:hidden;">
